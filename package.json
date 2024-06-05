@@ -2,9 +2,10 @@
   "name": "yurtici-kargo-react",
   "version": "1.0.0",
   "description": "This package provides an integration with the Yurtici Cargo web services for React and TypeScript projects. It allows you to create shipments and handle responses from the Yurtici Cargo API.",
-  "main": "index.js",
+  "main": "dist/yurticiKargo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "yurtici",
